@@ -1,5 +1,4 @@
 # Lemmikloomade hoiukodu
 
-Arendusmudel
-
-Meie lemmikloomade hoiukodu süsteemi arendame inkrementaalselt, sest kasutajate vajadused selguvad järk-järgult ja süsteemi saab kasutusele võtta juba enne kõigi funktsioonide valmimist. Kõigepealt teeme valmis vabade hoiukohtade nägemise ja broneerimise — see annab kohe reaalset kasu nii omanikele kui hoiukodule. Seejärel lisame broneeringu tühistamise ja töötaja vaate loomade nimekirjaga, viimasena aga meeldetuletused, mis pole süsteemi toimimiseks kriitilised. Kosemudel ei sobiks, sest see eeldaks, et kõik nõuded on juba alguses täpselt teada ja muutumatud — meie puhul aga ei tea me ette, kas näiteks meeldetuletuste funktsioon osutub üldse vajalikuks või kas hoiukodu töötajatel tekib kasutamise käigus hoopis teistsuguseid vajadusi. Inkrementaalne lähenemine võimaldab meil pärast iga osa valmimist kasutajate tagasisidet koguda ja järgmisi samme selle põhjal kohandada.
+Muudel: inkrementaalselt
+kõigepealt vabade kohtade nägemine ja broneerimine, siis tühistamine ja töötaja vaade, viimasena meeldetuletused. Nii saan iga osa valmimise järel süsteemi juba kasutada ja järgmisi samme kohandada. Kosemudel ei sobi, sest kõiki nõudeid pole alguses täpselt teada — näiteks pole selge, kas meeldetuletused üldse vajalikud on, ja seda selgub alles kasutamise käigus.
