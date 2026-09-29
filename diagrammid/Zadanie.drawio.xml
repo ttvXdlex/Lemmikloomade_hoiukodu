@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Kasutusjuhtude diagramm" id="0">
+    <mxGraphModel dx="1406" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="650" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=16;fontStyle=1;arcSize=6;fillColor=#F5F5F5;strokeColor=#666666;" value="Süsteemi piir" vertex="1">
+          <mxGeometry height="540" width="420" x="220" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="Vaadata vabu hoiukohti" vertex="1">
+          <mxGeometry height="60" width="260" x="300" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="Broneerida hoikoht" vertex="1">
+          <mxGeometry height="60" width="260" x="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="Tuhistada broneering" vertex="1">
+          <mxGeometry height="60" width="260" x="300" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="Vaadata hoiul olevaid loomi" vertex="1">
+          <mxGeometry height="60" width="260" x="300" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="uc5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="Lisada vaba hoiukoht" vertex="1">
+          <mxGeometry height="60" width="260" x="300" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="9s_hAsHFPZ9a6t7WXnDO-1" style="endArrow=none;html=1;strokeColor=#000000;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="171" y="207.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="9s_hAsHFPZ9a6t7WXnDO-1" style="endArrow=none;html=1;strokeColor=#000000;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="231.8115942028985" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="9s_hAsHFPZ9a6t7WXnDO-1" style="endArrow=none;html=1;strokeColor=#000000;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="uc3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="236.44927536231876" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="9s_hAsHFPZ9a6t7WXnDO-1" style="endArrow=none;html=1;strokeColor=#000000;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9s_hAsHFPZ9a6t7WXnDO-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="241.08695652173924" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="9s_hAsHFPZ9a6t7WXnDO-2" style="endArrow=none;html=1;strokeColor=#000000;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="uc4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="349.6875" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9s_hAsHFPZ9a6t7WXnDO-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Loomaomanik" vertex="1">
+          <mxGeometry height="80" width="50" x="60" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="9s_hAsHFPZ9a6t7WXnDO-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Hoiukodu tootaja" vertex="1">
+          <mxGeometry height="80" width="50" x="710" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="9s_hAsHFPZ9a6t7WXnDO-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="&lt;div&gt;&lt;div&gt;Saada meeldetuletus&lt;/div&gt;&lt;/div&gt;&lt;p dir=&quot;ltr&quot;&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="260" x="300" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="9s_hAsHFPZ9a6t7WXnDO-10" edge="1" parent="1" source="uc5" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="9s_hAsHFPZ9a6t7WXnDO-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="630" y="440" as="sourcePoint" />
+            <mxPoint x="680" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9s_hAsHFPZ9a6t7WXnDO-11" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Loomaomanik" vertex="1">
+          <mxGeometry height="135" width="160" x="840" y="112.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9s_hAsHFPZ9a6t7WXnDO-12" parent="9s_hAsHFPZ9a6t7WXnDO-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="nimi&lt;div&gt;e-post&lt;/div&gt;&lt;div&gt;telefon&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9s_hAsHFPZ9a6t7WXnDO-13" parent="9s_hAsHFPZ9a6t7WXnDO-11" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9s_hAsHFPZ9a6t7WXnDO-14" parent="9s_hAsHFPZ9a6t7WXnDO-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="registreeru()&lt;div&gt;broneeri()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47" width="160" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="9s_hAsHFPZ9a6t7WXnDO-16" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Lemmikloom&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;nimi&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;liik&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;vanus&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;erivajadused&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="190" x="1300" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9s_hAsHFPZ9a6t7WXnDO-17" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;HoiukoduTöötaja&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;nimi&lt;br&gt;roll&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;lisaHoiukoht()&lt;br&gt;vaataLoomad()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="190" x="870" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="9s_hAsHFPZ9a6t7WXnDO-18" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Broneering&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;algusKuupäev&lt;br&gt;lõppKuupäev&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;staatus&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;kinnita()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;Tühista()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="125" width="190" x="1060" y="277.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9s_hAsHFPZ9a6t7WXnDO-19" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Hoiukoht&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;number&lt;br&gt;vaba/hölvatud&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;kontrolliVabadust()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="190" x="1260" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="9s_hAsHFPZ9a6t7WXnDO-22" edge="1" parent="1" source="9s_hAsHFPZ9a6t7WXnDO-14" style="endArrow=classic;html=1;rounded=0;exitX=0.494;exitY=1.021;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.721;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;" target="9s_hAsHFPZ9a6t7WXnDO-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="940" y="330" as="sourcePoint" />
+            <mxPoint x="990" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9s_hAsHFPZ9a6t7WXnDO-23" edge="1" parent="1" source="9s_hAsHFPZ9a6t7WXnDO-18" style="endArrow=classic;html=1;rounded=0;entryX=0.437;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="9s_hAsHFPZ9a6t7WXnDO-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1300" y="335" as="sourcePoint" />
+            <mxPoint x="1350" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9s_hAsHFPZ9a6t7WXnDO-24" edge="1" parent="1" source="9s_hAsHFPZ9a6t7WXnDO-19" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=0;startArrow=classic;startFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="9s_hAsHFPZ9a6t7WXnDO-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1170" y="430" as="sourcePoint" />
+            <mxPoint x="1220" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9s_hAsHFPZ9a6t7WXnDO-25" edge="1" parent="1" source="9s_hAsHFPZ9a6t7WXnDO-17" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="9s_hAsHFPZ9a6t7WXnDO-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="970" y="720" as="sourcePoint" />
+            <mxPoint x="1020" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
