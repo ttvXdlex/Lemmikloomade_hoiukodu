@@ -21,7 +21,7 @@ käigus.
 
 ## Diagrammid
 ![Kasutusjuhud](diagrammid/screen1.png)
-![Klassid](diagrammid/klassid.png)
+![Klassid](diagrammid/screen2.png)
 
 ## Makett
 Tegime ekraanid iteratiivselt, sest tahtsime kohe näha, kuidas
