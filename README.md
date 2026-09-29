@@ -4,7 +4,7 @@ Süsteem, mis aitab loomaomanikel broneerida oma lemmikule hoiukoha
 ajaks, mil nad ise kohal ei ole, ning hoiukodul jälgida, kes ja millal
 loomi hoiule toob.
 
-**Tegija:** [sinu nimi]
+**Tegija:** [Alex Tarakanov]
 
 ## Kasutajad ja nõuded
 Kaks rolli: loomaomanik ja hoiukodu töötaja. Kuus kasutajalugu on
@@ -20,7 +20,7 @@ meeldetuletused üldse vajalikud on, ja seda selgub alles kasutamise
 käigus.
 
 ## Diagrammid
-![Kasutusjuhud](diagrammid/kasutusjuhud.png)
+![Kasutusjuhud](diagrammid/Screenshot_2026-09-29_090413.png)
 ![Klassid](diagrammid/klassid.png)
 
 ## Makett
