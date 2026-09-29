@@ -31,4 +31,4 @@ broneerimine ja loomade nimekiri kokku sobivad.
 
 ## Kuidas ma töötasin
 Tahvel alguses ja lõpus: `protsess/`. 
-[3 lauset retrospektiivi: mis läks hästi, mis oli raske, mida teeksid teisiti]
+[Ekraani paigutuse väljamõtlemine oli keeruline. Probleemid, mis olid märgitud kui "Kohustuslikud", olid kergesti lahendatavad. Ekraanipaigutuse väljamõtlemine oli keeruline. „Kohustuslikuks“ olid probleemid kergesti lahendatavad. Mudel valiti välja suuremate raskusteta.]
