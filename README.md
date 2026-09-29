@@ -20,8 +20,7 @@ meeldetuletused üldse vajalikud on, ja seda selgub alles kasutamise
 käigus.
 
 ## Diagrammid
-![Kasutusjuhud](diagrammid/screen1.png)
-Screen 2
+![Kasutusjuhud](diagrammid/screen1.png)Screen 2
 ![Klassid](diagrammid/screen2.png)
 
 ## Makett
