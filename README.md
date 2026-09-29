@@ -24,7 +24,7 @@ käigus.
 ![Klassid](diagrammid/screen2.png)
 
 ## Makett
-Tegime ekraanid iteratiivselt, sest tahtsime kohe näha, kuidas
+Tegin ekraanid iteratiivselt, sest tahtsin kohe näha, kuidas
 broneerimine ja loomade nimekiri kokku sobivad.
 ![Broneerimine](makett/screen1.png)
 ![Loomade nimekiri](makett/screen2.png)
