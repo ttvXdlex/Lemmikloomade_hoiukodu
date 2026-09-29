@@ -26,8 +26,8 @@ käigus.
 ## Makett
 Tegime ekraanid iteratiivselt, sest tahtsime kohe näha, kuidas
 broneerimine ja loomade nimekiri kokku sobivad.
-![Broneerimine](makett/broneerimine.png)
-![Loomade nimekiri](makett/loomade-nimekiri.png)
+![Broneerimine](makett/screen1.png)
+![Loomade nimekiri](makett/screen2.png)
 
 ## Kuidas ma töötasin
 Tahvel alguses ja lõpus: `protsess/`. 
