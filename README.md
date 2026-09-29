@@ -21,13 +21,13 @@ käigus.
 
 ## Diagrammid
 ![Kasutusjuhud](diagrammid/screen1.png)
+Screen 2
 ![Klassid](diagrammid/screen2.png)
 
 ## Makett
 Tegime ekraanid iteratiivselt, sest tahtsime kohe näha, kuidas
 broneerimine ja loomade nimekiri kokku sobivad.
 ![Broneerimine](makett/broneerimine.png)
-Screen 2
 ![Loomade nimekiri](makett/loomade-nimekiri.png)
 
 ## Kuidas ma töötasin
