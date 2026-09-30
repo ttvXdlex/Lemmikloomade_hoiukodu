@@ -20,6 +20,45 @@ meeldetuletused üldse vajalikud on, ja seda selgub alles kasutamise
 käigus.
 
 ## Diagrammid
+```mermaid
+classDiagram
+  class Loomaomanik {
+    +String nimi
+    +String epost
+    +String telefon
+    +registreeru()
+    +broneeri()
+  }
+  class Lemmikloom {
+    +String nimi
+    +String liik
+    +int vanus
+    +String erivajadused
+  }
+  class Broneering {
+    +Date algusKuupäev
+    +Date lõppKuupäev
+    +String staatus
+    +kinnita()
+    +tühista()
+  }
+  class Hoiukoht {
+    +int number
+    +boolean vaba
+    +kontrolliVabadust()
+  }
+  class HoiukoduTöötaja {
+    +String nimi
+    +String roll
+    +lisaHoiukoht()
+    +vaataLoomad()
+  }
+
+  Loomaomanik "1" --> "*" Broneering
+  Broneering "*" --> "1" Hoiukoht
+  Broneering "1" --> "1" Lemmikloom
+  HoiukoduTöötaja "1" --> "*" Hoiukoht
+```
 ![Kasutusjuhud](diagrammid/screen1.png)
 ![Klassid](diagrammid/screen2.png)
 
