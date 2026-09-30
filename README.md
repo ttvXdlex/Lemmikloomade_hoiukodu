@@ -42,7 +42,7 @@ classDiagram
     +kinnita()
     +tühista()
   }
-  class Hoiukoht {
+  class Hoiukojukoht {
     +int number
     +boolean vaba
     +kontrolliVabadust()
