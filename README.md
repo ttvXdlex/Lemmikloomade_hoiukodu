@@ -59,6 +59,7 @@ classDiagram
   Broneering "1" --> "1" Lemmikloom
   HoiukoduTöötaja "1" --> "*" Hoiukoht
 ```
+
 ### Liidestuse skeem (Pangalingiga maksmine)
 ```mermaid
 sequenceDiagram
@@ -83,6 +84,7 @@ sequenceDiagram
     Pank-->>Kasutaja: Suuna tagasi veateatega (cancel_url)
     Hoiukodu-->>Kasutaja: Teade: "Makse ebaõnnestus. Hoiukoht vabastati. Palun proovi uuesti."
   end
+```
 ![Kasutusjuhud](diagrammid/screen1.png)
 ![Klassid](diagrammid/screen2.png)
 
