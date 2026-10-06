@@ -93,7 +93,7 @@ Tegin ekraanid iteratiivselt, sest tahtsin kohe näha, kuidas
 broneerimine ja loomade nimekiri kokku sobivad.
 ![Broneerimine](makett/screen1.png)
 ![Loomade nimekiri](makett/screen2.png)
-
+  
 ## Kuidas ma töötasin
 Tahvel alguses ja lõpus: `protsess/`. 
 [Ekraani paigutuse väljamõtlemine oli keeruline. Probleemid, mis olid märgitud kui "Kohustuslikud", olid kergesti lahendatavad. Ekraanipaigutuse väljamõtlemine oli keeruline. „Kohustuslikuks“ olid probleemid kergesti lahendatavad. Mudel valiti välja suuremate raskusteta.]
