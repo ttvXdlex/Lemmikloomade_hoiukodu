@@ -59,6 +59,32 @@ classDiagram
   Broneering "1" --> "1" Lemmikloom
   HoiukoduTöötaja "1" --> "*" Hoiukoht
 ```
+
+### Liidestuse skeem (Pangalingiga maksmine)
+```mermaid
+sequenceDiagram
+  autonumber
+  actor Kasutaja as Loomaomanik
+  participant Hoiukodu as Hoiukodu süsteem
+  participant Pank as Pangalink (Montonio)
+
+  Kasutaja->>Hoiukodu: Vali kuupäevad ja klõpsa "Maksa pangalingiga"
+  Hoiukodu->>Pank: Broneeringu ID, summa (EUR), loomaomaniku e-post, tagasisuunamise URL-id
+  Pank-->>Kasutaja: Suuna panga makselehele (Swedbank, SEB, LHV)
+  
+  alt Makse õnnestub (tavapärane voog)
+    Kasutaja->>Pank: Kinnita makse pangas PIN-koodiga
+    Pank-->>Hoiukodu: Webhook: tehingu ID, staatus "PAID", digiallkiri
+    Hoiukodu->>Hoiukodu: Valideeri digiallkiri ja märgi broneering "Kinnitatud"
+    Pank-->>Kasutaja: Suuna tagasi hoiukodu lehele (success_url)
+    Hoiukodu-->>Kasutaja: Kuva kinnitus: "Broneering tasutud ja kinnitatud!"
+  else Makse ebaõnnestub või aegub (veaolukord)
+    Pank-->>Hoiukodu: Webhook: staatus "FAILED" või timeout (15 min)
+    Hoiukodu->>Hoiukodu: Vabasta broneeritud hoiukoht ja märgi "Tühistatud"
+    Pank-->>Kasutaja: Suuna tagasi veateatega (cancel_url)
+    Hoiukodu-->>Kasutaja: Teade: "Makse ebaõnnestus. Hoiukoht vabastati. Palun proovi uuesti."
+  end
+```
 ![Kasutusjuhud](diagrammid/screen1.png)
 ![Klassid](diagrammid/screen2.png)
 
