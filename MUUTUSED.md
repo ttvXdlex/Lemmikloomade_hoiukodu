@@ -2,57 +2,65 @@
 
 Tegija: Alex Tarakanov
 
-Projekti eesmärk on võimaldada loomaomanikul broneerida oma lemmikule ajutine hoiukoht ning aidata hoiukodu töötajal jälgida broneeringuid ja loomade saabumist ning lahkumist. Tellija soovib, et muudatused oleksid kasutamiseks valmis kahe kuu jooksul alates töö algusest.
+Hoiukodu süsteem aitab loomaomanikul broneerida lemmikule ajutise hoiukoha. Kooli söökla ülesande neli muudatust on siin kohandatud hoiukodu tööle. Tellija soovib, et muudatused oleksid kasutamiseks valmis kahe kuu jooksul.
 
-## 1. Millised on projekti peamised nõuded?
+## 1. Projekti peamised nõuded
 
-- Loomaomanik peab saama valida hoiuperioodi, vaadata selleks ajaks vabu kohti ja broneerida sobiva koha.
-- Broneeringuga tuleb siduda loomaomaniku kontaktandmed ning looma andmed, sealhulgas liik ja erivajadused.
-- Omanik peab saama vaadata oma broneeringu staatust ja broneeringu tühistada. Tühistamisel vabaneb koht selleks perioodiks.
-- Töötaja peab saama hallata hoiukohti ja broneeringuid ning märkida, millal loom saabus ja lahkus.
-- Süsteem peab kaitsma isikuandmeid, töötama telefonis ja arvutis ning olema tähtajaks testitud ja kasutusvalmis.
+| Kooli söökla nõue | Lemmikloomade hoiukodu nõue |
+| --- | --- |
+| 1. Õpilane broneerib lõunasöögi telefonist. | Loomaomanik saab telefoni brauseris valida kuupäevad ja lemmiku, vaadata vabu hoiukohti ning teha broneeringu. |
+| 2. Õpilane näeb toidu koostisosi ja allergeene. | Loomaomanik näeb enne broneerimist hoiukoha tingimusi ning hoiukodu pakutava sööda koostisosi ja märgitud allergeene. |
+| 3. Söökla töötaja muudab päevamenüüd. | Hoiukodu töötaja saab muuta valitud päeva hoiukohtade saadavust ja sel päeval pakutava sööda infot. Muudatused kuvatakse omaniku vaates. |
+| 4. Õpilane saab kinnitatud broneeringu teavituse. | Kui broneering saab oleku „Kinnitatud“, saadab süsteem omanikule e-kirja broneeringu numbri, lemmiku nime ja hoiuperioodiga. |
 
 ## 2. Funktsionaalsed ja mittefunktsionaalsed nõuded
 
-| Liik | Nõue |
-| --- | --- |
-| Funktsionaalne | Omanik saab registreeruda, sisse logida ja hallata oma lemmiku andmeid. |
-| Funktsionaalne | Süsteem kuvab valitud kuupäevadel vabad hoiukohad ja kontrollib saadavust uuesti broneeringu salvestamisel. Kui kaks inimest üritavad sama kohta kattuvaks ajaks broneerida, saab kinnituse ainult üks broneering. |
-| Funktsionaalne | Omanik saab vaadata oma broneeringuid ja neid enne hoiuperioodi algust tühistada. |
-| Funktsionaalne | Töötaja saab vaadata broneeringute nimekirja, lisada hoiukohti ning registreerida looma saabumise ja lahkumise. |
-| Mittefunktsionaalne | Juurdepääs on rollipõhine. Omanik näeb ainult enda loomi ja broneeringuid ning töötaja näeb tööks vajalikke andmeid. |
-| Mittefunktsionaalne | Broneerimisvorm ja töötaja vaade peavad olema kasutatavad nii telefonis kui ka arvutis. Puuduvate või vigaste andmete korral kuvatakse selge veateade. |
+**Funktsionaalsed nõuded**
 
-Kahe kuu tähtaeg on projekti ajapiirang. Enne üleandmist tuleb kontrollida broneerimist, sama koha topeltbroneerimise tõkestamist, tühistamist, töötaja vaadet ja kasutajaõigusi.
+- Omanik saab otsida vabu kohti, broneerida hoiukoha, vaadata oma broneeringuid ja broneeringu enne hoiuperioodi algust tühistada. Salvestamisel kontrollitakse saadavust uuesti, et sama kohta ei broneeritaks kattuvaks ajaks kaks korda.
+- Süsteem kuvab enne kinnitamist hoiukoha tingimused ja valitud päevade sööda info. Puuduv koostise või allergeenide info kuvatakse kui „Info puudub“.
+- Töötaja saab muuta kuupäevapõhist saadavust ning sööda nimetust, koostisosi ja allergeene. Saadavuse muutmisel kontrollib süsteem, kas see läheks vastuollu kinnitatud broneeringuga.
+- Süsteem saadab kinnituskirja automaatselt pärast broneeringu kinnitamist. Korduv kinnitussündmus ei tohi tekitada teist kirja. Saatmisvea korral jääb broneering kinnitatuks ja kirja saatmist saab korrata.
 
-## 3. Millised kasutajarollid on süsteemis?
+**Mittefunktsionaalsed nõuded**
+
+- Broneerimisvaade kohandub telefoni ja arvuti ekraanile. Telefonis peab saama kogu broneeringu teha ilma lehte külgsuunas kerimata.
+- Omanik pääseb ligi ainult enda broneeringutele ja lemmikute andmetele. Päevapõhist saadavust ja sööda infot saab muuta ainult töötaja.
+- Vormidel kuvatakse selged veateated ning hoiukoha ja sööda info on loetav ka väikesel ekraanil.
+
+Kahe kuu tähtaeg on projekti ajapiirang. Selleks ajaks peavad kõik neli muudatust olema testitud ja kasutusvalmis.
+
+## 3. Kasutajarollid
 
 | Roll | Tegevused |
 | --- | --- |
-| Loomaomanik | Lisab oma lemmiku andmed, otsib vaba hoiukohta, esitab broneeringu ning vaatab või tühistab enda broneeringuid. |
-| Hoiukodu töötaja | Haldab hoiukohti ja broneeringuid, vaatab loomade erivajadusi ning registreerib saabumise ja lahkumise. |
+| Loomaomanik | Vaatab hoiukoha tingimusi ja sööda infot, broneerib telefonist, haldab enda broneeringuid ning saab kinnituskirja. |
+| Hoiukodu töötaja | Haldab broneeringuid, muudab päevade kaupa kohtade saadavust ja sööda infot ning registreerib looma saabumise ja lahkumise. |
 
-## 4. Millist arendusmudelit kasutaksin ja miks?
+## 4. Arendusmudel ja ajakava
 
-Kasutaksin inkrementaalset arendusmudelit. Iga etapi lõpus saab tellija proovida valminud osa ja anda tagasisidet. Nii saab broneerimise põhiprotsessi varakult läbi proovida ning jätta viimased nädalad testimiseks ja parandusteks.
+Kasutaksin inkrementaalset arendusmudelit. Tellija saab iga etapi lõpus valminud osa proovida ja anda tagasisidet. Nii saab telefonis broneerimist testida enne ülejäänud muudatuste valmimist.
 
 | Aeg | Tulemus |
 | --- | --- |
-| 1.–2. nädal | Täpsustan nõuded, täiendan makette ja andmemudelit ning loon vabade kohtade otsingu. |
-| 3.–4. nädal | Lisan broneerimise, kattuvuse kontrolli, broneeringu staatuse kuvamise ja tühistamise. |
-| 5.–6. nädal | Lisan töötaja vaate, hoiukohtade halduse ning saabumise ja lahkumise märkimise. |
-| 7.–8. nädal | Testin kasutusvooge ja ligipääsuõigusi, parandan vead ning teen tellijaga vastuvõtutesti. |
+| 1.–2. nädal | Täpsustan nõuded ja täiendan broneerimise maketti. Valmib mobiilivaade koos kuupäevavaliku ja saadavuse kontrolliga. |
+| 3.–4. nädal | Lisan hoiukoha tingimused ning sööda koostise ja allergeenide kuvamise. Töötaja saab muuta päevapõhist infot. |
+| 5.–6. nädal | Lisan broneeringu kinnituskirja ja kontrollin saatmise veaolukordi. |
+| 7.–8. nädal | Testin nelja muudatust koos, parandan vead ja teen tellijaga vastuvõtutesti. |
 
-README-s kavandatud meeldetuletuste ja pangalingi prioriteedi täpsustan tellijaga. Ajakavas on esikohal broneerimine ja hoiukohtade haldus.
+## 5. Muudetavad või täiendatavad süsteemiosad
 
-## 5. Milliseid olemasoleva süsteemi osi tuleks muuta või täiendada?
-
-| Olemasolev projektiosa | Kavandatav muudatus |
+| Projektiosa | Muudatus |
 | --- | --- |
-| [Broneerimise makett](makett/screen1.png) | Täiendan kuupäevavalikut, vabade kohtade kuvamist, looma valimist ja broneeringu kinnitust. Lisan vaate oma broneeringute vaatamiseks ja tühistamiseks. |
-| [Loomade nimekirja makett](makett/screen2.png) | Lisan töötaja vaatesse kuupäeva- ja olekufiltri, looma erivajadused ning saabumise ja lahkumise märkimise. |
-| [Kasutusjuhtude diagramm](diagrammid/screen1.png) | Täpsustan omaniku ja töötaja tegevusi ning kirjeldan tühistamise ja koha puudumise juhtumeid. |
-| [Klassidiagramm](diagrammid/screen2.png) ja [README](README.md) | Täpsustan broneeringu seoseid omaniku, looma ja hoiukohaga ning kirjeldan olekud. Saadavus tuleb arvutada valitud kuupäevade ja aktiivsete broneeringute järgi. |
-| Broneerimisloogika ja ligipääs | Rakendamisel lisan serveripoolse kuupäevade, kattuvuse ja kasutajaõiguste kontrolli. Testin ka kahe samaaegse broneeringu katset. |
+| [Broneerimise makett](makett/screen1.png) | Lisan telefonis kasutatava kuupäevavaliku ning hoiukoha ja sööda detailid enne broneeringu kinnitamist. |
+| [Töötaja vaate makett](makett/screen2.png) | Lisan valitud päeva saadavuse ja sööda info muutmise vormi. |
+| [Kasutusjuhtude diagramm](diagrammid/screen1.png) | Lisan telefonist broneerimise, sööda info vaatamise, päevaandmete muutmise ja kinnituskirja saatmise. |
+| [Klassidiagramm](diagrammid/screen2.png) ja andmemudel | Lisan hoiukoha tingimused, kuupäevapõhise saadavuse ja sööda andmed. Seon teavituse broneeringu ning selle omanikuga. |
+| Broneerimise ja teavitamise loogika | Lisan saadavuse korduskontrolli broneerimisel ning käivitan e-kirja saatmise, kui kinnitatud olek on salvestatud. |
 
-**Vastuvõtutest.** Omanik leiab vaba koha ja teeb broneeringu. Teine omanik proovib sama kohta samaks ajaks broneerida ning süsteem keeldub. Esimene omanik tühistab broneeringu ja koht muutub taas valitavaks. Töötaja märgib uue broneeringu puhul looma saabumise ja lahkumise ning kontrollib, et olekud kajastuvad töötaja vaates.
+### Vastuvõtutest
+
+1. Omanik avab süsteemi telefonis, valib lemmiku ja kuupäevad ning esitab broneeringu.
+2. Enne esitamist näeb omanik hoiukoha tingimusi, sööda koostisosi ja märgitud allergeene.
+3. Töötaja muudab valitud päeva sööta ja vaba koha saadavust. Omaniku vaates kuvatakse sama päeva uuendatud andmed.
+4. Kui broneering on kinnitatud, saab omanik ühe e-kirja õigete broneeringuandmetega.
