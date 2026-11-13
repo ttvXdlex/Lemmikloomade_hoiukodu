@@ -93,6 +93,7 @@ Tegin ekraanid iteratiivselt, sest tahtsin kohe näha, kuidas
 broneerimine ja loomade nimekiri kokku sobivad.
 ![Broneerimine](makett/screen1.png)
 ![Loomade nimekiri](makett/screen2.png)
+![MoobiliRakendus](makett/mobiilne-broneerimine.png)
 
 ## Kuidas ma töötasin
 Tahvel alguses ja lõpus: `protsess/`. 
